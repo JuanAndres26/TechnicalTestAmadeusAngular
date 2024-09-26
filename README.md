@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+
+#Sistema de registro de reservas
+Arquitectura de alto nivel 
+![image](https://github.com/user-attachments/assets/648bca2c-ba0a-4d60-aab3-68dbeb36c433)
+
+##Proyecto angular
+tiene las funcionalidades de ver los ticketes disponibles y las reservas activas aparte de la autenticacion y guarda la sesion del token jwt 
+
+![image](https://github.com/user-attachments/assets/8004bc15-7c3f-4dba-8d04-ba3bd1c3b67a)
+
+![image](https://github.com/user-attachments/assets/a1f57c2e-21fe-4b87-a692-a79ad7597e57)
+
+![image](https://github.com/user-attachments/assets/34d77e44-7ad3-481d-ae2c-d8a0cee1a78e)
+
+
+
