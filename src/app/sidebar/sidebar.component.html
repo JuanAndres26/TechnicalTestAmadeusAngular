@@ -1,0 +1,12 @@
+<div class="sidebar">
+    <div class="user-info">
+      <h3>{{ userName }}</h3> <!-- Aquí puedes mostrar el nombre del usuario -->
+      <button class="reserve-btn" (click)="logout()">Cerrar Sesión</button>
+    </div>
+    <nav>
+      <ul>
+        <li><a (click)="goFligth()">Vuelos</a></li>
+        <li><a (click)="goReservation()">Mis Reservas</a></li>
+      </ul>
+    </nav>
+  </div>

@@ -1,0 +1,16 @@
+<app-sidebar></app-sidebar>
+<div class="main-content">
+    <h2>Vuelos disponibles</h2>
+    <div class="flight-card-container">
+      <div *ngFor="let flight of flights" class="flight-card">
+        <div class="flight-info">
+          <h3 class="flight-departure">Salida: {{ flight.departure }}</h3>
+          <p class="flight-destination">Destino: {{ flight.destination }}</p>
+        </div>
+        <div class="flight-date">
+          <p>{{ flight.date | date: 'mediumDate' }}</p>
+        </div>
+        <button class="reserve-btn" (click)="reserveFlight(flight.id)">Reservar</button>
+      </div>
+    </div>
+  </div>

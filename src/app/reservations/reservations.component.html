@@ -1,0 +1,13 @@
+<app-sidebar></app-sidebar>
+<div class="main-content">
+    <h2>Tus reservaciones</h2>
+    <div class="reservation-card" *ngFor="let reservation of reservations">
+        <div class="reservation-content">
+            <h3>ID de Reserva: {{ reservation.idReservation }}</h3>
+        </div>
+        <div class="reservation-actions">
+            <button (click)="reserveFlight(reservation.flight.id)">Editar</button>
+            <button (click)="deleteReservation(reservation.idReservation)">Eliminar</button>
+        </div>
+    </div>
+</div>
